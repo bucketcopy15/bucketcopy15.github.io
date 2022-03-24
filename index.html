@@ -1,42 +1,117 @@
-﻿<title>Url Hub</title>
 <style>
-h1 {text-align: center;}
-body {text-align: center;}
-p {text-align: center;}
-</style>
-<h1>Welcome to the URL Hub!</h1>
-
-<body>
-<a href="https://Colegia.org/login">
-<button>Colegia Login</button><br>
-</a>
-
-<a href="https://classroom.google.com/">
-<button>Google Classroom</button><br>
-</a>
-<a href="https://connected.mcgraw-hill.com/connected/login.do">
-<button>Connected (StudySync)</button><br>
-</a>
-</body>
+  #header{
+    text-align: center;
+    min-height: 100px;
+    background-color: #424242;
+    color: white;
+    text-shadow: 2.2px 2.2px #000000;
+    margin-left:10%;
+    margin-right:10%;
+  }
+  #subheader{
+    text-align: center;
+    min-height: 20px;
+    background-color: #424242f6;
+    color: white;
+    text-shadow: 2.2px 2.2px #000000;
+    margin-left: 10%;
+    margin-right:10%;
+  }
+  #body{
+    text-align: center;
+    min-height: 500px;
+    background-color: #f8f8f8bd;
+    
+  }
+  button{
+    text-align:center;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 12px;
+    border-width: 3px;
+  }
+  #bg1{
+    background-image: url(https://cdn.discordapp.com/attachments/955997146430210078/956344383295356928/unknown.png);
+  }
+  #bg2{
+    background-image: url(https://cdn.discordapp.com/attachments/944775785112289320/956639632869707836/unknown.png);
+    border: 4px;
+    border-radius: 12px;
+  }
+  #bg3{
+    background-image: url(https://cdn.discordapp.com/attachments/944775785112289320/956645833049247784/unknown.png);
+  }
+  #bg4{
+    background-image: url(https://cdn.discordapp.com/attachments/944775785112289320/956649788101767238/microsoft-teams-logo-png_120-120.png);
+  }
   
-<p>
-<button onclick="hyper()" style="background-color:rgb(2, 141, 255);color:rgb(255, 255, 255);border-radius:5px;text-shadow: 1px 1px #000000">Debug</button>
-
-<script>
-  function hyper(){
-  var password;
-  var pass1="abc123";
-  var pass2=" abc123";
-  password=prompt('Enter the password to continue (no spaces)',' ');
+  h1 {text-align: center;}
+  body {text-align: center;}
+  p {text-align: center;}
+  @viewport{
+        zoom: 1.0;
+        width: extend-to-zoom;
+      }
+  @-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
+  }
+  </style>
+  <body style="background-color:#a5a4a4";>
+  <title>Url Hub</title>
+  <div id="header"> 
+  <h1>Welcome to the MHH!</h1>
+  </div>
+  <div id="subheader">
+  MittenUrls Hyperlink Hub
+  </div>
+  <div id="body">
+  <br>
+  <br>
+  <a href="https://Colegia.org/login">
+  <button id="bg1" style="width: 179px">
+  <img style="border-radius:12px" src="https://cdn.discordapp.com/attachments/955997146430210078/956344383295356928/unknown.png" alt="Colegia" width="165" height="75">
+  </button><br><br>
+  </a>
   
-  if (password==pass1){
-  alert('Password verified, reauthenticating...');
-  window.location="1f8gf8s9rgs9394j38s9d[KE534";
-  }
-  else{
-      location.reload()
-  }
-  }
-  </script>
-<p>
+  <a href="https://classroom.google.com/">
+    <button id="bg2" style="width:70; height:60">  
+    </button><br><br>
+    </a>
+    </body>
 
+  <a href="https://connected.mcgraw-hill.com/connected/login.do">
+  <button id="bg3" style="width:290; height:70">  
+  </button><br><br>
+  </a>
+  </body>
+
+  <a href="https://teams.microsoft.com/_?culture=en-us&country=US&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/teams-grid/General?ctx=teamsGrid">
+    <button id="bg4" style="width:120; height:120">  
+    </button><br><br>
+    </a>
+    </body>
+
+
+
+
+  <button onclick="hyper()" style="background-color:rgb(2, 141, 255);color:rgb(255, 255, 255);border-radius:5px;text-shadow: 1px 1px #000000">Debug Page</button>
+  
+  <script>
+    function hyper(){
+    var password;
+    var pass1="abc123";
+    var pass2=" abc123";
+    password=prompt('Enter the password to continue (no spaces)',' ');
+    
+    if (password==pass1){
+    alert('Password verified, reauthenticating...');
+    window.location="1f8gf8s9rgs9394j38s9d[KE534";
+    }
+    else{
+        location.reload()
+    }
+    }
+    </script>
+  <p>
